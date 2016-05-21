@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Russo One';
+    src: url('../fonts/russoone-regular-webfont.eot');
+    src: url('../fonts/russoone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/russoone-regular-webfont.woff') format('woff'),
+         url('../fonts/russoone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/russoone-regular-webfont.svg#russo_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

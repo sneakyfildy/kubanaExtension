@@ -1,0 +1,66 @@
+html{
+    font-family: tahoma, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    background: url('/img/alert_bg.png') fixed no-repeat;
+    color: #111;
+
+}
+html:hover{
+    cursor: pointer;
+}
+body{
+    font-size: 14px;
+    position: relative;
+}
+#content{
+    word-wrap: break-word;
+    margin-top: 2px;
+    text-align: left !important;
+}
+#content *{
+    text-align: left !important;
+}
+#header{
+    height: 15px;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+a{
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #2a00d1;
+}
+.news_header{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.date{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #555;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+#content > div > a > img{
+    float: left;
+    margin-right: 10px;
+    width: 27px;
+    height: 27px;
+
+}
